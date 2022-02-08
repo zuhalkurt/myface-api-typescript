@@ -1,10 +1,12 @@
 import React, {useState, useEffect} from "react";
 import { PostList } from "../../posts/postList/PostList.jsx";
 import { User } from "../user/User.jsx";
+import { useParams } from "react-router-dom";
 
 
-export function UserDetailPage ({userId}) {
+export function UserDetailPage () {
     const [user, setUser] = useState();
+    const {userId} = useParams();
 
     useEffect(
         function() {
