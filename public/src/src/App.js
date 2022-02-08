@@ -1,10 +1,10 @@
-import './App.css';
-import { UserDetailPage } from './components/users/userDetailPage/UserDetailPage';
+import './App.scss';
+import { PostListPage } from './components/posts/postListPage/PostListPage';
 
 function App() {
   return (
     <div className="App">
-      <UserDetailPage userId="2" />
+      <PostListPage />
     </div>
   );
 }
