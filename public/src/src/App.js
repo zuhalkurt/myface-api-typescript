@@ -4,7 +4,6 @@ import { UserListPage } from './components/users/userListPage/UserListPage';
 import { UserDetailPage } from './components/users/userDetailPage/UserDetailPage';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import { Navbar } from './components/navbar/Navbar';
-import {UserList} from './components/users/userList/UserList';
 
 function App() {
   return (

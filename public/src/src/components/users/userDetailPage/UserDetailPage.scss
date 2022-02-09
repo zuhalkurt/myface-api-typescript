@@ -1,0 +1,21 @@
+@import "../../../constants.scss";
+
+.cover {
+    width: 100vw;
+    height: 50vw;
+    background-size: cover;
+    z-index: 2;
+}
+#user-profile-image {
+    border-radius: 50%;
+    border: 5px solid white;
+   
+}
+.user-profile-card {
+    background-color: $opacity;
+    margin-top: -75px;
+    z-index: 1;
+}
+
+
+
