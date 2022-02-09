@@ -1,8 +1,9 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import "./User.scss";
 
 export function User({ user }) {
-    return <div>
+    return <div className="user">
         <img src={user.profileImageUrl} alt={user.name}/>
         <Link to={`/users/${user.id}`}>
             <h2>{user.name}</h2>
