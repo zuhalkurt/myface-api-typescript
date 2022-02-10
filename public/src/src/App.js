@@ -14,7 +14,6 @@ function App() {
         <Route path="posts" element={<PostListPage/>} />
         <Route path="users" element={<UserListPage/>} />
         <Route path="users/:userId" element={<UserDetailPage/>} />
-        <Route path="users?page=:pageNumber" element={<UserListPage/>} />
         </Routes>
         
     </div>
