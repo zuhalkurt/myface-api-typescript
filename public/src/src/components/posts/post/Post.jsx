@@ -1,6 +1,7 @@
 import React from "react";
 import "./Post.scss";
 
+
 export function Post({ post }) {
     return <div className="post">
         <h2>{post.message}</h2>

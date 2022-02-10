@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import "./User.scss";
 
 export function User({ user }) {
     return <div className="user">
@@ -10,7 +9,6 @@ export function User({ user }) {
         </Link>
         <p className="user-email">{user.email}</p>
         <p className="user-user-name">{user.username}</p>
-        
     </div>
 }
 
