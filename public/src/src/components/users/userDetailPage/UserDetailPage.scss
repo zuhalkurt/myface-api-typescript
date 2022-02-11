@@ -1,4 +1,5 @@
 @import "../../../constants.scss";
+@import "../user/User.scss";
 
 .cover {
     width: 100vw;
@@ -8,18 +9,6 @@
    
 }
 
- 
-#user-profile-image {
-    border-radius: 50%;
-    border: 5px solid white;
-   
-}
-
-.user-profile-card {
-    background-color: $opacity;
-    margin-top: -75px;
-    
-}
 
 
 
